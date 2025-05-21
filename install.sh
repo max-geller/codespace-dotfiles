@@ -54,4 +54,4 @@ npm install -g @angular/cli create-react-app next vite
 # pip3 install black isort
 
 # Log installation
-echo "Dotfiles installation completed" >> ~/install.log
+echo "Dotfiles installation completed (v2)" >> ~/install.log
