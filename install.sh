@@ -6,14 +6,14 @@ sudo apt-get update
 sudo apt-get install -y zsh curl git tmux
 
 # Install ZSH plugins
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+#git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Install Starship
 curl -sS https://starship.rs/install.sh | sh -s -- -y
 
 # Install Zoxide
-curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+# curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
 # Install Neovim
 sudo apt-get install -y software-properties-common
@@ -44,10 +44,10 @@ sudo apt-get install -y nodejs
 npm install -g @angular/cli create-react-app next vite
 
 # Go
-wget https://go.dev/dl/go1.20.7.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.20.7.linux-amd64.tar.gz
-rm go1.20.7.linux-amd64.tar.gz
-export PATH=$PATH:/usr/local/go/bin
+# wget https://go.dev/dl/go1.20.7.linux-amd64.tar.gz
+# sudo tar -C /usr/local -xzf go1.20.7.linux-amd64.tar.gz
+# rm go1.20.7.linux-amd64.tar.gz
+# export PATH=$PATH:/usr/local/go/bin
 
 # Python
 # sudo apt-get install -y python3 python3-pip python3-venv
