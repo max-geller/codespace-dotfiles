@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get install -y neovim
 
 # Install Kitty (optional, for SSH sessions)
-curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+# curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 
 
 # Symlink dotfiles
@@ -30,7 +30,7 @@ ln -sf $HOME/dotfiles/.zshrc $HOME/.zshrc
 ln -sf $HOME/dotfiles/.tmux.conf $HOME/.tmux.conf
 ln -sf $HOME/dotfiles/.gitconfig $HOME/.gitconfig
 mkdir -p $HOME/.config
-ln -sf $HOME/dotfiles/.config/kitty $HOME/.config/kitty
+# ln -sf $HOME/dotfiles/.config/kitty $HOME/.config/kitty
 ln -sf $HOME/dotfiles/.config/starship.toml $HOME/.config/starship.toml
 ln -sf $HOME/dotfiles/.config/nvim $HOME/.config/nvim
 
@@ -50,8 +50,8 @@ rm go1.20.7.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 
 # Python
-sudo apt-get install -y python3 python3-pip python3-venv
-pip3 install black isort
+# sudo apt-get install -y python3 python3-pip python3-venv
+# pip3 install black isort
 
 # Log installation
 echo "Dotfiles installation completed" >> ~/install.log
